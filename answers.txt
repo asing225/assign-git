@@ -5,3 +5,5 @@
 3. There can be many use cases of having different branches. One is for having multiple developers working on a project. Each developer works on his/her own branch and have a master branch which has the deliverable/working project and it keeps updating as they develop. Another use case is when we have multiple deliverables for a project. We can have different branches for different deliverables. e.g. sometimes we have to build second deliverable on top of first deliverable, in this case we can create a branch for first deliverable and second deliverable.
 
 4. Usually there is a single remote git repository for a project.
+
+Editing to review Anurag Mishra.
