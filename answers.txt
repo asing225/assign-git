@@ -1,0 +1,7 @@
+1. gitignore file is the file in which git specifies the files which we don't want to commit on the git. There are some types of files that are created at the run-time are specified in the gitignore file. Sometimes there are some user settings that are only specific to a single user and we don't want to commit these files to the git. Such files are mentioned in the gitignore file. For a Java project the gitignore file will have these extensions - *.class, *.log, *.jar, *.war, *.zip, *.rar etc. Based on the system it can also have hs_err_pid* which is the virtual machine crash logs. It can also have some temporary files like .mtj.tmp/
+
+2. When we try to merge one commit with a commit that can be reached by the first commit's history commits then git does not merge commit for that particular commit, it will just move the pointer forward to the newer commit since there are no divergent work to merge.
+
+3. There can be many use cases of having different branches. One is for having multiple developers working on a project. Each developer works on his/her own branch and have a master branch which has the deliverable/working project and it keeps updating as they develop. Another use case is when we have multiple deliverables for a project. We can have different branches for different deliverables. e.g. sometimes we have to build second deliverable on top of first deliverable, in this case we can create a branch for first deliverable and second deliverable.
+
+4. Usually there is a single remote git repository for a project.
